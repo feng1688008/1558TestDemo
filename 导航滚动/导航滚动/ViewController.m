@@ -20,11 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
     self.navigationController.navigationBar.barTintColor = [UIColor orangeColor];
     
 /* 解决方案1  图片显示不全*/
 //self.navigationController.navigationBar.translucent = NO;
-    
     /*
      解决方案2
      默认的全局布局UIRectEdgeAll  iOS7
